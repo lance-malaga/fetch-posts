@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #677ab0;
+  padding: 2rem 5rem;
+}
+
+.post_container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+h1 {
+  font-size: 50px;
+}
+.post {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.post div {
+  padding: 1rem 0.5rem;
+}
+.post h4 {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.post p {
+  text-align: justify;
+}
+.post p:last-of-type {
+  margin-bottom: 0;
+}
+.post hr {
+  border: none;
+  height: 1px;
+  background-color: #677ab0;
+  margin-top: auto;
+  height: 2px;
+  width: 100%;
+}
